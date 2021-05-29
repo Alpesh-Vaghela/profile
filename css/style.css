@@ -114,6 +114,7 @@ a{
 
 #injected ul{
   list-style: none;
+  margin-left: -35px;
 }
 
 #injected li, th, td {
