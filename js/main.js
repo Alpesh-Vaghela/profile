@@ -8,104 +8,129 @@ function help(){
   </tr>\
   <tr>\
     <td>about</td>\
-    <td>Everything you ever wanted to know about John Smith</td>\
+    <td>Everything you ever wanted to know about Alpesh Vaghela</td>\
   </tr>\
   <tr>\
     <td>contact</td>\
-    <td>How to get in touch with John Smith</td>\
+    <td>How to get in touch with Alpesh Vaghela</td>\
   </tr>\
   <tr>\
     <td>links</td>\
-    <td>See what links John Smith wants you to click on</td>\
+    <td>See what links Alpesh Vaghela wants you to click on</td>\
   </tr>\
   <tr>\
     <td>skills</td>\
-    <td>Get to know how good John Smith is at stuff</td>\
+    <td>Get to know how good Alpesh Vaghela is at stuff</td>\
   </tr>\
-  <tr>\
+  <!--<tr>\
     <td>cv</td>\
-    <td>Download John Smith's CV</td>\
+    <td>Download Alpesh Vaghela's CV</td>\
   </tr>\
   <tr>\
     <td>rickroll</td>\
     <td>Never Gonna Give You Up</td>\
-  </tr></table>";
+  </tr>--></table>";
 }
 
 function contact(){
   return "<h2><span style=\"color:#cc6666;\">Contact:</span></h2><table>\
   <tr>\
     <td>Email</td>\
-    <td><a href=\"mailto:john.smith@emailprovider.com\">john.smith@emailprovider.com</a></td>\
+    <td><a href=\"mailto:alpesh.dev20@gmail.com\">alpesh.dev20@gmail.com</a></td>\
   </tr>\
   <tr>\
     <td>Telephone</td>\
-    <td><a href=\"tel:+45-657-56234\">+45-657-56234</a></td>\
+    <td><a href=\"tel:+91 8734947948\">+91 8734947948</a></td>\
   </tr>\
   <tr>\
     <td>Address</td>\
-    <td>John Smith</td>\
+    <td>Alpesh Vaghela</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>205 Autumn Street</td>\
+    <td>Chandhkheda, Ahmedabad</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>5472</td>\
+    <td>382424</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>London</td>\
+    <td>Gujarat</td>\
   </tr>\
   <tr>\
     <td> </td>\
-    <td>UK</td>\
+    <td>India</td>\
   </tr></table>";
 }
 
 function skills(){
   return "<h2><span style=\"color:#81a2be;\">Skills:</span></h2><table>\
   <tr>\
-    <td>Photoshop</td>\
+    <td>PHP</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
+  </tr>\
+  <tr>\
+    <td>Yii</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
+  </tr>\
+  <tr>\
+    <td>Laravel</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+  </tr>\
+  <tr>\
+    <td>Codeigniter</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+  </tr>\
+  <tr>\
+    <td>CakePHP</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+  </tr>\
+  <tr>\
+    <td>MySQL</td>\
+    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
+  </tr>\
+  <tr>\
+    <td>React</td>\
+    <td>▰▰▰▰▰▰▰▱▱▱ 70%</td>\
+  </tr>\
+  <tr>\
+    <td>Vue</td>\
     <td>▰▰▰▰▰▰▱▱▱▱ 60%</td>\
   </tr>\
   <tr>\
     <td>HTML</td>\
-    <td>▰▰▰▰▰▱▱▱▱▱ 50%</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
   </tr>\
   <tr>\
-    <td>Premiere Pro</td>\
-    <td>▰▰▰▰▰▰▰▰▱▱ 80%</td>\
-  </tr>\
-  <tr>\
-    <td>Rickrolling</td>\
-    <td>▰▰▰▰▰▰▰▰▰▰ 100%</td>\
+    <td>CSS</td>\
+    <td>▰▰▰▰▰▰▰▰▰▱ 90%</td>\
   </tr></table>";
 }
 
 function about(){
-  return "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>";
+  return "<p>A full-stack software engineer with over 11 years of experience. <br/><br/> I have maintained, developed and launched multiple projects from scratch, carrying the development of its back-end and front-end codebases.<br/><br/>My current toolset includes PHP Language & Laravel, Yii, Codeigniter, CakePHP Framework, React, Redux, Vue, Docker and all the other various frameworks, libraries and technologies related to them.<br/><br/>I can help you with all the sides of your project: <br/><br/> verifying good UI/UX design, leading/co-developing the back-end and front-end, setting up the CI/CD, mentoring the team, estimating tasks, researching possible techs, leading, launching and monitoring the project.</p>";
 }
 
 function cv(){
-  return "<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
+  return ""; //"<span style=\"color:#8abeb7;\"><h2>CV:</h2></span><p>\tDownload from <a href=\"src/cv.pdf\" target=\"_blank\" style=\"text-decoration: underline;\">here</a>.</p>";
 }
 
 function credits(){
-  return "<p>Built by <a href=\"https://www.github.com/CedArctic\" target=\"_blank\"><i class=\"fab fa-github\"></i> CedArctic</a></p>";
+  return ""; //"<p>Built by <a href=\"https://www.github.com/CedArctic\" target=\"_blank\"><i class=\"fab fa-github\"></i> CedArctic</a></p>";
 }
 
 function links(){
   return "<span style=\"color: #b5bd68;\"><h2>Links:</h2></span><ul>\
-  <li><a href=\"https://www.linkedin.com\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
-  <li><a href=\"https://www.github.com\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
-  <li><a href=\"https://www.twitter.com\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
-  <li><a href=\"https://www.facebook.com\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
+  <li><a href=\"https://www.linkedin.com/in/alpesh-vaghela-92a315b1/\" target=\"_blank\"><i class=\"fab fa-linkedin\"></i> LinkedIn</a></li>\
+  <li><a href=\"https://github.com/Alpesh-Vaghela\" target=\"_blank\"><i class=\"fab fa-github\"></i> Github</a></li>\
+  <li><a href=\"https://twitter.com/alpeshce20\" target=\"_blank\"><i class=\"fab fa-twitter\"></i> Twitter</a></li>\
+  <li><a href=\"https://www.facebook.com/alpeshvaghela20/\" target=\"_blank\"><i class=\"fab fa-facebook\"></i> Facebook</a></li>\
   </ul>";
 }
 
 function rickroll(){
+  return "";
   return "<p>We're no strangers to love<br>\
     You know the rules and so do I<br>\
     A full commitment's what I'm thinking of<br>\
@@ -203,19 +228,19 @@ function commandProcessor(e){
       document.getElementById('injected').innerHTML=about();
     }else if (txtInput == "contact") {
       document.getElementById('injected').innerHTML=contact();
-    }else if (txtInput == "cv") {
+    }/*else if (txtInput == "cv") {
       document.getElementById('injected').innerHTML=cv();
-    }else if (txtInput=="skills") {
+    }*/else if (txtInput=="skills") {
       document.getElementById('injected').innerHTML=skills();
     }else if (txtInput=="links") {
       document.getElementById('injected').innerHTML=links();
-    }else if (txtInput == "rickroll") {
+    }/*else if (txtInput == "rickroll") {
       var win = window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ", '_blank');
       win.focus();
       document.getElementById('injected').innerHTML=rickroll();
     }else if (txtInput == "credits") {
       document.getElementById('injected').innerHTML=credits();
-    }else{
+    }*/else{
       document.getElementById('injected').innerHTML = help();
     }
 

@@ -16,6 +16,10 @@ a{
   text-align: justify;
 }
 
+#sidebar p {
+  text-align: initial;
+}
+
 #terminal{
   margin:5%;
 }
@@ -51,7 +55,12 @@ a{
 
 #sidebar h1{
   color: #58d49f;
-  font-size: 52px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#sidebar h4{ 
+  text-align: center;
 }
 
 @media(max-width:1024px){
